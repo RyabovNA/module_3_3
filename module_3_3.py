@@ -14,5 +14,5 @@ values_dict = {'a': "World", 'b': False, 'c': 78}
 print_params(*values_list)
 print_params(**values_dict)
 
-values_list_2 = [True, [25, 65, 13]]
+values_list_2 = [True, 'Stanislav']
 print_params(*values_list_2, 42)
